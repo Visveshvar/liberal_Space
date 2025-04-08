@@ -1,0 +1,117 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* 
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+.login-button {
+  max-width: 320px;
+  display: flex;
+  padding: 0.5rem 1.4rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  gap: 0.75rem;
+  color: rgb(65, 63, 63);
+  background-color: #fff;
+  cursor: pointer;
+  transition: all .6s ease;
+}
+
+.login-button svg {
+  height: 24px;
+}
+
+.login-button:hover {
+  transform: scale(1.02);
+}
+
+.home-screen {
+  display: flex;
+  height: 100vh;
+  background-color: #f7f7f8;
+  font-family: sans-serif;
+}
+.home-sidebar {
+  width: 250px;
+  background-color: #121212;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.home-sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.home-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home-sidebar li {
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.home-sidebar li:hover {
+  color: #10a37f;
+}
+
+.main-home-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #202123;
+  overflow: hidden;
+}
